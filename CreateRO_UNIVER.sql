@@ -1,5 +1,6 @@
 use master  
 go
+
 create database RO_UNIVER
 on primary
 ( name = N'RO_UNIVER_mdf', filename = N'D:\Учеба\БД\4lab\RO_UNIVER_mdf.mdf', 
@@ -20,9 +21,6 @@ log on
 ( name = N'RO_UNIVER_log', filename=N'D:\Учеба\БД\4lab\RO_UNIVER_log.ldf',       
    size=5120Kb,  maxsize=UNLIMITED, filegrowth=1024Kb)
 go
-
-
-
 
 use RO_UNIVER
 create table FACULTY
